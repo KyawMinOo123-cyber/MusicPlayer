@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <script src="https://kit.fontawesome.com/43d793ab52.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="musicPlayer.css">
+</head>
+<body>
+    <h1>My Favorite Musics</h1>
+    <div class="container">
+        <div class="playList"></div>
+        <audio src="" class="audioPlayer">
+            Your browser does not support the music player!
+        </audio>
+        <div class="times">00:00 / 00:00</div>
+        <div class="progressBar">
+            <div id="currentProgress"></div>
+        </div>
+        <div class="musicPlayer">
+            <i class="fa-solid fa-backward-step btn back"></i>
+            <i class="fa-solid fa-play btn play"></i>
+            <i class="fa-solid fa-pause btn pause"></i>
+            <i class="fa-solid fa-forward-step btn next"></i>
+
+        </div>
+    </div>
+    <script src="musicPlayer.js"></script>
+
+</body>
+</html>
